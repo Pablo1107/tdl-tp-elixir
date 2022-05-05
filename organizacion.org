@@ -1,0 +1,37 @@
+#+TITLE: Organización
+
+* Guia para el video informe:
+ 1. Preparación de una parte del [[file:video/guion.org][guion]]
+
+    - Escribir textualmente que se va a decir.
+    - Hacerlo en una rama aparte:
+      Ej. ~git checkout -b guion/origen~
+
+ 2. Arman un Pull Request en el repo
+
+ 3. Esperan peer review de los demas y realizar correcciones pertitentes.
+
+ 4. Grabación de las secciones
+
+    - las grabaciones se suben al repo usando ~git-annex~ ([[https://git-annex.branchable.com/walkthrough/][guia]])
+
+ 5. Recopilación de los videos en el video de entrega final (ultima etapa)
+
+* Guia para el ejercicio integrador:
+
+- TBD
+
+* Tareas para la semana
+ - O avanzar en el guion para el video informe
+ - O se trabaja sobre el ejercicio integrador
+
+* Pasos a seguir
+ - Lean la guia oficial (todos)
+   https://elixir-lang.org/getting-started/basic-types.html
+
+ - Armar el boilerplate del server en el repo (Pablo)
+
+ - Cada uno por su cuenta trata de armarse un servidor web super simple con
+   Phoenix. (todos)
+   - averiguar que es un REST API
+   - armar un endpoint que le haces ~GET /test~ y devuelve "Hola mundo".

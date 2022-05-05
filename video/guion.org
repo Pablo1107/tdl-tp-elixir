@@ -1,0 +1,62 @@
+#+TITLE: Guion
+
+Duración total estimada:
+40 minutos
+
+Cada participante deberia hacer aprox. 10 minutos.
+
+Formato:
+(<ponderacion>/<duracion aprox>) <tema>
+
+* (5/2min) Origen
+# Se menciona cuando surge el lenguaje y cual fue la motivacion de los creadores
+
+* (15/6min) Para que sirve (y para que no)
+# Se explica en que casos es bueno y malo el lenguaje con los motivos
+
+* (10/4min) Características Basicas del Lenguaje
+# Se explican las características básicas del lenguaje
+# indicando aquellas que lo hacen diferente,
+# ejemplificando en situaciones que sea necesario
+# destacar algo único del lenguaje y comparando con
+# otros lenguajes que se estudian en otras materias y
+# Oz
+
+** Paradigmas que soporta
+** Compilado/Interpretado
+** Tipado fuerte o dinamico
+** Control de Flujos
+** Tipos de Datos Abstractos (Listas, maps, etc)
+** Parametros
+** Cualquier concepto basico particular que soporta el lenguaje
+* (40/16min) Caracteristicas Avanzadas
+# Se explican los conceptos avanzados del lenguaje,
+# dejando claro con ejemplos o comparaciones en
+# donde se destaca o flaquea el lenguaje. Los
+# conceptos avanzados incluye lo visto en clase
+# sobre Oz como cualquier otra caracteristica unica
+# del lenguaje que sea avanzada
+
+** (4min) Manejo de Memoria
+** (4min) Manejo de Concurrencia
+** (4min) Errores
+** (4min) Paralelismo
+** O otras caracteristicas
+* (10/4min) Estadisticas
+
+# Se incluyen estadísticas de uso del lenguaje,
+# frameworks y la evolución en los últimos años. Para
+# lenguajes antiguos se incluye información sobre
+# qué lenguajes o técnicas se vieron influenciadas por
+# este lenguaje.
+* (10/4min) Comparación con otros lenguajes similares
+
+# Se destacan las diferencias del lenguaje contra
+# otros con propósito similar, se incluyen además
+# benchmarks o ejemplos que identifiquen
+# diferencias.
+
+* (10/4min) Casos de Estudio
+
+# Se mencionan casos reales indicando el motivo por
+# el cual se sabe o se cree que se usa el lenguaje
