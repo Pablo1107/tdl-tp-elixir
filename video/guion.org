@@ -11,6 +11,8 @@ Formato:
 * (5/2min) Origen
 # Se menciona cuando surge el lenguaje y cual fue la motivacion de los creadores
 
+El lenguaje se origina en el 9 de enero de 2011 cuando el brasileño José Valim, egresado de la Universidad de Universidad de São Paulo, se planteo (como proyecto de investigacion y desarrollo en Plataformatec) crear un lenguaje de programacion pensado para aplicaciones de gran escala que fuesen capaces de soportar y moverse en entornos de alta concurrencia a la vez que ser capaz de ofrecer baja latencia. Ademas Valim, penso a Elixir para ser capaz de manejar grandes volumenes de datos y para tener un buen grado de extensibilidad, productividad y retrocompativilidad con el ecosistema de Erlang.
+
 * (15/6min) Para que sirve (y para que no)
 # Se explica en que casos es bueno y malo el lenguaje con los motivos
 
