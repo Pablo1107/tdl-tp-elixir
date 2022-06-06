@@ -34,7 +34,7 @@ defmodule Star do
   end
 
   def interact(star1, star2) do
-    g = 2
+    g = 0.0012
     dist = Vec.distance(star1.pos, star2.pos)
     force_intenisty = (g*star1.mass*star2.mass) / (dist**3) # https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation
     f12 = Vec.multiply(Vec.sub(star2.pos, star1.pos), force_intenisty)
@@ -47,7 +47,7 @@ defmodule Main do
   def main do
 
     IO.puts("Creating a star")
-    star1 = %Star{name: "Sun", mass: 10, pos: %Vec{x: 20, y: 30}, vel: %Vec{x: 10, y: 15}}
+    star1 = %Star{name: "Sun", mass: 2, pos: %Vec{x: 20, y: 30}, vel: %Vec{x: 10, y: 15}}
     IO.inspect star1
     IO.puts("")
 
@@ -60,14 +60,36 @@ defmodule Main do
     IO.inspect Star.push(star1, force)
 
     IO.puts("Creating another star")
-    star2 = %Star{name: "Alpha centauri", mass: 20, pos: %Vec{x: 30, y: 50}, vel: %Vec{x: 20, y: -10}}
+    star2 = %Star{name: "Alpha centauri", mass: 3, pos: %Vec{x: 30, y: 50}, vel: %Vec{x: 20, y: -10}}
     IO.inspect star2
     IO.puts("")
 
     IO.puts("Interacting")
-    Star.interact(star1, star2)
-    IO.inspect Star.interact(star1, star2)
-    IO.inspect Star.interact(star2, star1)
+
+    #Enum.each(0..5, fn(_x) ->
+      #star1 = Star.interact(star1, star2)
+      #star2 = Star.interact(star2, star1)
+      #IO.inspect star1
+      #IO.inspect star2
+      #IO.puts("")
+    #end)
+
+    star1 = Star.interact(star1, star2)
+    star2 = Star.interact(star2, star1)
+    IO.inspect star1
+    IO.inspect star2
+    IO.puts("")
+
+    star1 = Star.interact(star1, star2)
+    star2 = Star.interact(star2, star1)
+    IO.inspect star1
+    IO.inspect star2
+    IO.puts("")
+
+    star1 = Star.interact(star1, star2)
+    star2 = Star.interact(star2, star1)
+    IO.inspect star1
+    IO.inspect star2
     IO.puts("")
 
   end
